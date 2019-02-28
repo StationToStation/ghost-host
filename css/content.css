@@ -1,0 +1,637 @@
+* {
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+}
+
+body {
+    font-size: 0px;
+    margin: 0 auto;
+    margin-bottom: 320px;
+    /*width: 1600px;*/
+}
+.wrapper {
+    font-family: serif;
+    width: 1600px;
+    margin:0 auto;  
+}
+
+.wrapper .for_footer {
+    position: relative;
+    min-height: 100%;
+}
+
+header {
+    font-size: 16px;
+    height: 110px;
+    color: white;
+    width: 1600px;
+    position:absolute;
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+nav ul{
+    text-align: left;
+    font-family: "GentiumBookBasic", "Georgia", serif;
+    position: relative;
+    left: 35.9%;
+    top: 1.3em;
+    font-size: 21px;
+    width: 740px;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-column-gap: 1em;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+nav a:hover li {
+    color: rgb(200, 159, 45);
+}
+
+nav a:first-child li {
+    grid-column-start: 1;
+}
+
+nav a:nth-child(2) li {
+    grid-column-start: 2;
+}
+
+nav a:nth-child(3) li {
+    grid-column-start: 3;
+}
+
+nav a:nth-child(4) li {
+    grid-column-start: 4;
+}
+
+nav a:nth-child(5) li {
+    grid-column-start: 5;
+}
+
+nav a:nth-child(6) li {
+    grid-column-start: 6;
+}
+
+.social_icons {
+    position: relative;
+    left: 81.5%;
+    bottom: 14%;
+    letter-spacing: 15px;
+}
+
+.social_icons a {
+    color: rgb(204, 153, 0);
+}
+
+.social_icons a:hover {
+    color: white;
+}
+
+
+logo {
+    margin: 2.9%;
+    position: absolute;
+    top:0;
+    left: 8.3%;
+}
+
+h1 {
+ font-size: 0;
+}
+
+.content {
+    padding-bottom: 320px;
+}
+
+.promo {
+    font-size: 1.6rem;
+    height: 750px;
+    background-image: url(../img/promo_background.png);
+    
+    color: white;
+}
+
+h1 {
+    padding: 0 0;
+    margin: 0 0;
+    font-family: "YesevaOne", "Georgia", serif;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    line-height: 132%;
+    position:relative;
+    top: 28.3%;
+    font-weight:lighter;
+}
+
+h1::after {
+    display: none;
+}
+
+.button {
+    font-size: 0;
+}
+
+.button a {
+    font-family: "Lato", "Calibri", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.8rem;
+    
+    display:inline-block;
+    text-align: center;
+    position: relative;
+    bottom: 30.5rem;
+    left: 54.2rem;
+    margin: 0 0.91%;
+    padding: 24px 0 20px 0;
+    width: 228px;
+    height: 56px;
+    line-height: 1rem;
+    box-sizing:border-box;
+}
+
+.button a:first-child {
+    border: 1px solid rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .56);
+}
+
+.button a:last-child {
+    border: 1px solid rgba(255, 255, 255, .8);
+    background-color: rgba(255, 255, 255, .196);
+}
+
+.promo_divider {
+    position: relative;
+    display: block;
+    margin: 18% auto;
+    bottom: 6.9%;
+    left: 0.21%;
+    
+}
+
+.about {
+    background-image: url(../img/about_pattern.png);
+    height: 710px;
+}
+
+.about .wrapper {
+    position: relative;
+    right: 30.1rem;
+    height: 505px;
+    width: 41.8rem;
+    padding: 99px 0 0 0;
+    text-align: center;
+}
+
+h2 {
+   margin: 0 0;  
+   display: block;
+   font-family: "YesevaOne", "Georgia", serif;
+   font-size: 3.6rem;
+   font-weight: lighter;
+   color: rgb(204, 153, 0);
+}
+
+h2::after {
+    content: url(../img/divider.png);
+    display: block;
+    width: 247px;
+    height: 24px;
+    position: relative;
+    margin:auto;
+    top: 0.6rem;
+}
+
+p {
+    font-family: "Lato", "Calibri", sans-serif;
+    font-size: 16px;
+    display:block;
+    width: 41.5rem;
+    height: 120px;
+    color: rgb(76, 76, 76);
+    overflow: hidden;
+    margin: 41px 0px;
+    line-height: 1.5;
+    width: 415px;
+    text-align:center;
+}
+
+.about div img {
+    position: static;
+    margin: 8px 0 0 70px;
+}
+.dish {
+    position: relative;
+    bottom: 550px;
+    left: 739px;
+}
+
+
+.ingredients {
+    background-image: url(../img/ingredients_background.png);
+    height: 758px;
+}
+
+.ingredients .wrapper {
+    font-size: 0;
+    height:557px;
+    width: 570px;
+    position: relative;
+    left: 300px;
+    top:100px;
+    text-align: center;
+    padding-top: 75px;
+    background-color: rgba(0, 0, 0, 0.67);
+    box-sizing: border-box;
+}
+
+.ingredients h2::after {
+    content: url(../img/white_divider.png);
+}
+
+.ingredients h2 {
+    color:white;
+}
+
+.ingredients p {
+    color: white;
+    margin: 41px auto;
+    margin-bottom: 43px;
+    width: 41.5rem;
+    
+}
+
+.ingredients img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.09);
+    margin: 25px 15px;
+}
+
+.menu {
+    background-image: url(../img/menu_pattern.png);
+    min-height: 994px;
+}
+.menu .wrapper {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 1170px;
+    height: 794px;
+    padding: 100px;
+    overflow: hidden;
+}
+
+figure {
+    display: inline-block;
+    min-height: 321px;
+    max-height: 463px;
+    margin: 0;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.menu_column {
+    width: 430px;
+    margin: 0 60px 0 70px;
+    height: 850px;
+    overflow: hidden;
+}
+
+.menu_column:nth-child(odd) {
+    float: left;
+    margin-left: 108px;
+}
+
+.menu_column:nth-child(even) {
+    float: left;
+}
+
+figure ul {
+    margin: 43px 0 -43px 0;
+    padding: 0;
+    /* margin-top: 43px; */
+}
+
+.menu li {
+    margin: 0px 0;
+    padding-bottom: 32px;
+}
+
+figure p {
+    text-align: left;
+    height: fit-content;
+    width: 430px;
+    margin: 14px 0 2px -1px;
+}
+
+figure h3 {
+    margin: 0 0 0 0;
+    font-family: "YesevaOne", "Georgia", serif;
+    font-size: 2.1rem;
+    font-weight: lighter;
+    color: rgb(204, 153, 0);
+}
+
+figure hr {
+    clear: both;
+    border: none;
+    height: 2px;
+    position: relative;
+    top: 8px;
+    background: rgb(204, 153, 0);
+}
+
+figure h3:nth-child(1) {
+    float: left;
+}
+
+figure h3:nth-child(2) {
+    float: right;
+}
+
+.reviews {
+    background-image: url(../img/reviews_background.png);
+    height:  758px;
+}
+
+article {
+    text-align: center;
+    background-image: url(../img/reviews_wrapper.png);
+    position: absolute;
+    left: 415px;
+    top: 3312px;
+    width: 770px;
+    height: 557px;    
+}
+
+article h2 {
+    margin-top: 7.5rem;
+    color: white;
+}
+
+article h2::after {
+    content: url(../img/white_divider.png);
+}
+
+article p {
+    font-family: "GentiumBookBasic", "Georgia", serif;
+    font-size: 2.5rem;
+    line-height: 4.4rem;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 630px;
+    height: 210px;
+    margin: 40px auto;
+    margin-bottom: 42px;
+    box-sizing: border-box;
+}
+
+address {
+    margin: 0 auto;
+    margin-top: 38px;
+    margin-bottom: 100px;
+    font-family: "Lato", "Calibri", sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+
+.reservations {
+    position:relative;
+    height: 710px;
+    background-image: url(../img/about_pattern.png);
+}
+
+.reservations .gradient {
+    width: 100%;
+    position: absolute;
+    height: 710px;
+    top: 0px;
+    left: 0px;
+    box-shadow: inset 0 0 50px 0px rgba(0, 0, 0, .05);
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.07) 0%, rgba(12,52,53,0.07) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.07) 0%,rgba(12,52,53,0.07) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,0.07) 0%,rgba(12,52,53,0.07) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12ffffff', endColorstr='#120c3435',GradientType=0 ); /* IE6-9 */
+}
+
+.reservations .wrapper {
+    margin: 0 175px 103px 175px;
+    padding-left: 40px;
+    position: relative;
+    top: 100px;
+    height: 570px;
+    overflow: hidden;
+}
+
+.reservations img {
+    margin-right: 30px; 
+    float: left;
+}
+
+.reservations .wrapper .wrapper {
+    margin: 0 30px;
+    text-align: center;
+    width: 430px;
+    height: 507px;
+    float: left;
+    position:static;
+}
+
+.reservations p {
+    height: 150px;
+    width: inherit;
+    margin-top: 41px;
+}
+
+.reservations h2 {
+    margin-top: -5px;
+}
+
+.reservations br {
+    line-height: 200%;
+}
+
+form {
+    float: left;
+    text-align: left;
+}
+input, select {
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(200, 198, 198);
+    background-color: rgba(255, 255, 255, 0.4);
+    border-width: 1px;
+    height: 33px;
+    margin-bottom: 25px;
+    margin-top: 6px;
+    color: rgb(200, 198, 198);
+    font-size: 1.6rem;
+    font-family: 'Opensans', 'Calibri', sans-serif;
+}
+
+select {
+    width: 199px;
+    color: rgb(200, 198, 198);
+    position: relative;
+    /* left: 2px; */
+}
+
+option span {
+    color: rgb(200, 198, 198);
+}
+
+input::before {
+    content:"___";
+    display: block;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    color: rgb(201, 161, 49);
+    visibility: hidden
+}
+
+label {
+    /* left: 2px; */
+    display: inline-block;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    color: rgb(201, 161, 49);
+    position: relative;
+    height: 60px;
+    width: 200px;
+    margin-bottom: 23px;
+    margin-right: 2px;
+}
+
+label:nth-child(even) {
+    margin-left: 26px;
+}
+
+button {
+    display: block;
+    height: 34px;
+    border-style: none;
+    width: 200px;
+    background-color: rgb(201, 161, 49);
+    margin: 13px auto 0;
+}
+
+button span {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+input:focus {
+    border-color: rgb(200, 159, 45); 
+    outline: none;
+}
+
+.footer {
+    height: 320px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 1600px;
+    line-height: 60px;
+}
+    
+.footer .wrapper {
+    margin: 40px 175px 0 175PX;
+}
+
+.footer .wrapper div {
+    display:inline-block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.footer p {
+    font-size: 17px;
+    margin: 9px auto;
+    width: inherit;
+    color: white;
+}
+
+.footer h2 {
+    font-size: 21px;
+    color: white;
+}
+
+.footer h2::after {
+    content: url(../img/divider_small.png);
+    top: -20px;
+}
+
+.about_us {
+    width: 370px;
+    margin: 0 40px;
+}
+
+.opening_hours {
+    width: 230px;
+    margin: 0 60px;
+}
+
+.location {
+    width: 230px;
+    margin-left: 110px;
+}
+
+.footer span {
+    letter-spacing: 5px;
+    color: white;
+    position: relative;
+    bottom: 5px;
+}
+
+.footer a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(201, 161, 49);
+}
+
+
+
+@font-face {
+    font-family: "GentiumBookBasic";
+    src: url("../fonts/GentiumBookBasic/GenBkBasB.ttf");   
+}
+
+@font-face {
+    font-family: "YesevaOne";
+    src: url("../fonts/YesevaOne/YesevaOne-Regular_v2.otf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans/OpenSans-Regular.ttf");
+}
